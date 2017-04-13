@@ -6,6 +6,7 @@ uses Math;
 {$INCLUDE src/geometric_functions.pas}
 {$INCLUDE src/numbers.pas}
 {$INCLUDE src/Armstrong.pas}
+{$INCLUDE src/Test.pas}
 
 // -----------------------------------------------------------
 
@@ -20,7 +21,9 @@ begin
 
     writeln('Let"s play!');
     
-    armstrongs();
+    task8_141();
+    // armstrongs();
+    // writeln('Wee-hee! ', get_digit(23500, 2));
     
     // ex.6 p.141
     {
